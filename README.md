@@ -21,7 +21,7 @@ This guide will help you set up a virtual environment for practicing Ansible usi
 
 Before getting started, ensure you have the following:
 
-- **Operating System**: A Unix-like OS (Linux or macOS). Windows users can use WSL2 or a Linux virtual machine.
+- **Operating System**: This article is based on Rocky Linux 9.4
 - **VirtualBox**: Version 7.0 (installed later in the guide)
 - **Vagrant**: Latest version (installed later in the guide)
 - **Hardware**: Minimum 8 GB of RAM for running multiple VMs
