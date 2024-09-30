@@ -21,7 +21,7 @@ This guide will help you set up a virtual environment for practicing Ansible usi
 
 Before getting started, ensure you have the following:
 
-- **Operating System**: This article is based on Rocky Linux 9.4
+- **Operating System**: This article is based on Rocky Linux 9.4, any Redhat based OS will fit this Guide well
 - **VirtualBox**: Version 7.0 (installed later in the guide)
 - **Vagrant**: Latest version (installed later in the guide)
 - **Hardware**: Minimum 8 GB of RAM for running multiple VMs
