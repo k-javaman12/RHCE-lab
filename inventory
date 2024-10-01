@@ -1,15 +1,13 @@
-[nodes]
+
+[dev]
 node1.ansi.example.com ansible_host=192.168.56.201 ansible_user=vagrant ansible_ssh_private_key_file=/home/vagrant/.ssh/id_rsa_vagrant
+
+[test]
 node2.ansi.example.com ansible_host=192.168.56.202 ansible_user=vagrant ansible_ssh_private_key_file=/home/vagrant/.ssh/id_rsa_vagrant
+
+[prod]
 node3.ansi.example.com ansible_host=192.168.56.203 ansible_user=vagrant ansible_ssh_private_key_file=/home/vagrant/.ssh/id_rsa_vagrant
 node4.ansi.example.com ansible_host=192.168.56.204 ansible_user=vagrant ansible_ssh_private_key_file=/home/vagrant/.ssh/id_rsa_vagrant
-
-[webservers]
-node1.ansi.example.com ansible_host=192.168.56.201 ansible_user=vagrant ansible_ssh_private_key_file=/home/vagrant/.ssh/id_rsa_vagrant
-node2.ansi.example.com ansible_host=192.168.56.202 ansible_user=vagrant ansible_ssh_private_key_file=/home/vagrant/.ssh/id_rsa_vagrant
-node3.ansi.example.com ansible_host=192.168.56.203 ansible_user=vagrant ansible_ssh_private_key_file=/home/vagrant/.ssh/id_rsa_vagrant
-node4.ansi.example.com ansible_host=192.168.56.204 ansible_user=vagrant ansible_ssh_private_key_file=/home/vagrant/.ssh/id_rsa_vagrant
-
 
 [repo]
 repo.ansi.example.com ansible_host=192.168.56.199 ansible_user=vagrant ansible_ssh_private_key_file=/home/vagrant/.ssh/id_rsa_vagrant
